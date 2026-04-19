@@ -62,8 +62,9 @@ UPDATE_PACKAGE "gecoosac" "laipeng668/luci-app-gecoosac" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/netspeedtest" "main" "" "homebox speedtest"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
+UPDATE_PACKAGE "owq-wol" "isalikai/luci-app-owq-wol" "main"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-gi
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
